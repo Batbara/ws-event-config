@@ -11,7 +11,7 @@ spring:
 
   datasource:
     platform: postgres
-    url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://${yoke.postgres.host}/postgres
     username: postgres
     password: '{cipher}AQB+RBN78lIThgLY9W8Rm2KqjlvxgWjOTzezaSJ+MoRnCW7XFUHGq66tzSdsywPydYQo8mLWWwhKV4OltLduoyT66PpJP4yMEpX1UOt/akunmJExglF6GNu+mSOG59B6JRdcyr0nT/YVx86MtuOlE3E8ldhdJxuTagPc7t2VXjVYkmS+EXRuN1GbksO6wBms+MTK3b9OGxdMSUNXZqWARX9vl8RFsg/Aoqwd9zo65L6r2TbmJw9PgDOm/9RYnMGlpog1Acf6ZoWJt35NfADTyPAq02G3Aq7lJWXWSM/zGKsPXs8hw/16fJOOoWr+mknsE9vCIKvw84t+UhZDTodIETEz6RqhO59sopjbZxob8Dzri0MmD6m5BKxfjySaB5sgdx0='
 
